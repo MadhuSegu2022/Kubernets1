@@ -1,0 +1,50 @@
+# # kubectl get po --show-labels
+
+# # kubectl run web1 --image=niginx
+
+# kubectl run web2 --image=niginx
+
+# kubectl run web3 --image=niginx
+
+# kubectl run web4 --image=niginx
+
+
+
+# kubectl label web1 --env=
+# kubectl label web2 --env=
+# kubectl label web3 --env=
+# kubectl label web4 --env=
+
+
+# kubectl get po --show-labels
+
+# kubectl labe
+
+# kubectl get po -1 env=prod
+
+# kubectl get po -1 env!=prod
+
+
+# pod and service by tomorrow 
+
+
+# we have control object 
+
+# replicasets 
+
+# multiple religies 
+
+# will follow best practices 
+
+# labels can apply after resources created
+
+# after created the resorces added the labels and filtering using that labels 
+
+
+
+
+
+
+
+
+

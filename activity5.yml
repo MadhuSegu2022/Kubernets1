@@ -1,0 +1,46 @@
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: activity5
+spec:
+  containers:
+    - name: test
+      image: alpine
+      args: 
+        - sleep
+        - 1d
+      env:
+      - name: USERNAME
+        value: admin
+      - name: PASSWORD
+        value: admin@123
+
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: activity5
+# spec:
+#   containers:
+#     - name: test
+#       image: alpine
+#       args:
+#         - sleep
+#         - 1d
+#       env:
+#         - name: USERNAME
+#           value: admin
+#         - name: PASSWORD
+#           value: admin@123
+
+#       docker run -e "USERNAME=admin" -e "PASSWORD=admin@123" alpine sleep 1d 
+
+
+
+        # cash loop and back loop  it will restart not the re-create 
+        #kubectl get po -w 
+         # kubectl get po -w   
+
+
+         # kubectl exec -it activity5 -- bin/sh
+
